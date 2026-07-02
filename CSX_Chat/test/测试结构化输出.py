@@ -1,6 +1,6 @@
 
 
-from core.intent_recognizer_with_strutured_output import IntentRecognizer
+from CSX_Chat.core import IntentRecognizer
 
 from langchain_community.chat_models import ChatTongyi
 

@@ -3,7 +3,7 @@ from langchain_core.prompt_values import ChatPromptValue
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from typing import Any
-from core.prompt import INTENT_RECOGNIZE_WITH_STRUCTURED_OUTPUT_PROMPT
+from CSX_Chat.core.prompt import INTENT_RECOGNIZE_WITH_STRUCTURED_OUTPUT_PROMPT
 from langchain_core.output_parsers import StrOutputParser
 
 

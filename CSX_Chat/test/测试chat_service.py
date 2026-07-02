@@ -1,9 +1,8 @@
-import sys
 import os
 
 
-from chat_service import ChatService
-from core.protocol import ChatRequest, ChatResponse
+from CSX_Chat.chat_service import ChatService
+from CSX_Chat.core.protocol import ChatRequest
 import uuid
 
 

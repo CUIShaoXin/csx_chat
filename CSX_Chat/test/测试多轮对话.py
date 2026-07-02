@@ -1,8 +1,8 @@
 import os
 
 
-from chat_service import ChatService
-from core.protocol import ChatRequest
+from CSX_Chat.chat_service import ChatService
+from CSX_Chat.core.protocol import ChatRequest
 import uuid
 
 # 创建服务实例

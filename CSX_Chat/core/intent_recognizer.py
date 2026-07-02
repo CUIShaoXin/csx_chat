@@ -5,7 +5,7 @@ from typing import Any
 
 from langchain_community.chat_models import ChatTongyi
 
-from core.prompt import INTENT_RECOGNIZE_PROMPT
+from CSX_Chat.core.prompt import INTENT_RECOGNIZE_PROMPT
 from langchain_core.prompts import ChatPromptTemplate
 
 from langchain_core.output_parsers import StrOutputParser

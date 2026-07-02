@@ -2,10 +2,9 @@ import logging
 import os
 import time
 from langchain_community.chat_models import ChatTongyi
-from core.intent_recognizer import IntentRecognizer
-from core.memory import Memory
+from CSX_Chat.core import IntentRecognizer
+from CSX_Chat.core.memory import Memory
 from config import *
-from core.protocol import *
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
 
