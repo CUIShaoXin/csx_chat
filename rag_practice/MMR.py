@@ -50,7 +50,7 @@ if __name__ == '__main__':
         query=user_query,
         k=3,  # 最终返回 3 个，top-k
         fetch_k=5,  # 候选池 5 个
-        lambda_mult=0.6  # 平衡参数  越大相关性越强  多样性越弱
+        lambda_mult=0.6  # 平衡参数  越大相关性（相似度）越强  多样性越弱
     )
 
     for i, doc in enumerate(mmr_results):
